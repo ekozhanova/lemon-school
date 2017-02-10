@@ -1,0 +1,20 @@
+figure {
+  font-size: 300px;
+  text-align: center;
+  font-size: 19px;
+}
+img {
+  width: 300px;
+  border: 4px double;
+  color: #f0f;
+}<ol style="font-size: 19px; color: #006400;">
+a:hover {
+  text-decoration: none;
+}
+a {
+  color: #006400;
+}
+footer {
+  text-align: center;
+  border-bottom: 2px dashed #000000;
+}
