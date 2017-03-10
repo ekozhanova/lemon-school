@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>unordered lists</title>
+    <style>
+      li {
+        list-style-type: none;
+      }
+      li::before {
+        content: "★";
+      }
+      .list_heart::before {
+        content: "❤";
+      }
+      .list_sun::before {
+        content: "☀";
+      }
+      a {
+        text-decoration: none;
+        position: relative;
+      }
+      a::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 1px;
+        bottom: 1px;
+        border-bottom: 1px solid;
+      }
+      a.hover:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="#" class="hover">Я простая ссылка</a>
+      </li>
+      <li>
+        <a href="#" class="hover">А я ссылка с ховером</a>
+        <ul>
+          <li class="list_heart">
+            <a href="#" class="hover">И еще одна ссылка уже во внутреннем списке</a>
+          </li>
+          <li class="list_heart">
+            <a href="#" class="hover">И еще одна ссылка уже во внутреннем списке</a>
+          </li>
+          <li class="list_heart">
+            <a href="#" class="hover">И еще одна ссылка уже во внутреннем списке</a>
+            <ul>
+              <li class="list_sun">
+                <a href="#" class="hover">Последняя ссылка в списке 3-го уровня</a>
+              </li>
+            </ul>
+          </li>
+          <li class="list_heart">
+            <a href="#" class="hover">Вернемся назад</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" class="hover">И еще назад</a>
+      </li>
+    </ul>
+  </body>
+</html>

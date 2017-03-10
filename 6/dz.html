@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>battery</title>
+    <style>
+      * {
+        margin-left: 15px;
+      }
+      .red,
+      .yellow,
+      .green {
+        width: 160px;
+        height: 60px;
+        border: 5px solid;
+        position: relative;
+        margin-bottom: 10px;
+      }
+      .red::after,
+      .yellow::after,
+      .green::after {
+        content: "";
+        height: 20px;
+        width: 6px;
+        background-color: black;
+        position: absolute;
+        left: 165px;
+        top: 20px;
+      }
+      .red::before {
+        content: '';
+        position: absolute;
+        width: 35%;
+        height: 100%;
+        background-color: red;
+      }
+      .yellow::before {
+        content: '';
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        background-color: yellow;
+      }
+      .green {
+        background-color: green;
+      }
+      .angle {
+        width: 360px;
+        height: 44px;
+        position: relative;
+        background-color: green;
+        color: white;
+        margin-bottom: 3px;
+        padding-top: 30px;
+        padding-left: 30px;
+      }
+      .angle::after {
+        content: "";
+        height: 64px;
+        width: 5px;
+        background-color: green;
+        position: absolute;
+        left: 390px;
+        top: 5px;
+      }
+      .angle::before {
+        content: "";
+        height: 64px;
+        width: 5px;
+        background-color: green;
+        position: absolute;
+        right: 390px;
+        top: 5px;
+      }
+      a {
+        text-decoration: none;
+        font-size: 21px;
+        font-weight: bold;
+        display: inline-block;
+        text-align: center;
+        color: black;
+        width: 155px;
+        height: 36px;
+        position: relative;
+        background-color: #ffaed3;
+        padding-top: 8px;
+        border-radius: 22px;
+        box-shadow: 0px 0px 0px 1px white, 0px 0px 0px 2px #ffaed3, 0px 0px 2px 4px #ebebeb;
+        background: linear-gradient(to top, #ffaed3 0%, #f6d2e3 50%, #ffaed3 100%);
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="red"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="angle">Содержимое</div>
+    <a href="#" class="button">Кнопка</a>
+  </body>
+</html>
