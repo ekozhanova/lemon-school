@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Georgia;
+		}
+		form {
+			max-width: 750px;
+			margin: 30px auto;
+		}
+		.form-control {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+    input {
+    	border-radius: 4px;
+    }
+    input:last-child {
+      border-left: 0;
+      border-top-left-radius: 0;
+    	border-bottom-left-radius: 0;
+    }
+    input:first-child {
+      border-right: 0;
+      border-top-right-radius: 0;
+    	border-bottom-right-radius: 0;
+    }
+    input[type="text"],
+    input[type="url"],
+    input[type="email"],
+    input[id="dollar"],
+    input[type="submit"],
+    span {
+      width: 74%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin: -2px;
+    }
+    input[type="url"] {
+    	width: 63%;
+    }
+    input[type="text"] {
+			width: 85%;
+    }
+    input[id="dollar"] {
+      width: 80%;
+      border-radius: 0;
+    }
+    input[type="submit"] {
+    	width: 10%;
+    	background-color: #fff;
+    	border-radius: 4px;
+    }
+    input[type="submit"]:hover {
+    	background-color: #ccc;
+    }
+    input:focus {
+    	outline-color: #3f92cd;
+      box-shadow: 0 0 30px 0 rgba(63,146,205, .2);
+    }
+    span {
+    	padding: 8px;
+    	text-align: center;
+    	border: 2px solid #ccc;
+    	background-color: #ccc;
+    	border-radius: 4px;
+    	font-size: 14px;
+    	color: #898c91;
+    }
+    span:last-child {
+      border-left: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-bottom: 3px solid #ccc;
+    }
+    span:first-child {
+      border-right: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom: 3px solid #ccc;
+    }
+    .url {
+      display: inline-block;
+			padding-bottom: 10px;
+			font-size: 18px;
+    }
+	</style>
+</head>
+<body>
+	<form>
+		<div class="form-control">
+			<span><label for="name" class="text-label">@</label></span>
+			<input type="text" id="name" name="name" placeholder="Username">
+    </div>
+    <div class="form-control">
+      <input type="email" id="email" name="email" placeholder="Recipients's username">
+      <span><label for="email" class="text-label">@example.com</label></span>
+    </div>
+    <div class="form-control">
+  		<span class="text-label">$</span>
+  		<input type="text" id="dollar" name="dollar">
+  		<span class="text-label">.00</span>
+    </div>
+    <div class="form-control">
+		  <label for="url" class="url">Your vanity URL</label>
+		  <div>
+			  <span class="text-label">https://example.com/users/</span>
+			  <input type="url" id="url" name="url">
+		  </div>
+    </div>
+    <input type="submit" value="Submit">
+	</form>
+</body>
+</html>
