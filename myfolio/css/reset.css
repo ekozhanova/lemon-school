@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+html {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
