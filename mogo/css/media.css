@@ -1,0 +1,373 @@
+@media screen and (max-width: 1650px) {
+  .about-img {
+    margin-left: 2%;
+  }
+  .men {
+    margin-left: 5%;
+  }
+  .phone {
+    padding-left: 875px;
+    margin-top: -355px;
+    width: 71%;
+}
+@media screen and (max-width: 1564px) {
+  .blog-item {
+    padding-left: 8%;
+  }
+  .blog-item p {
+    max-width: 140%;
+  }
+  .phone {
+    padding-left: 850px;
+}
+@media screen and (max-width: 1540px) {
+  .phone {
+    padding-left: 785px;
+}
+/*@media screen and (max-width: 1497px) {
+  .follow {
+    margin-left: 10%;
+    width: 79%;
+  }
+  .follow-inst {
+    width: 25%;
+    margin-left: 20px;
+  }
+  .progress_bar_item {
+    width: 110%;
+  }
+}*/
+@media screen and (max-width: 1497px) {
+  .follow {
+    margin-left: 5%;
+    width: 85%;
+  }
+  .follow-inst {
+    width: 28%;
+  }
+  .progress_bar_item {
+    margin-left: 25%;
+    width: 68%;
+  }
+  .team-img {
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 1457px) {
+  .progress_bar_item {
+    margin-left: -5%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .phone {
+    padding-left: 785px;
+    margin-top: -239px;
+    width: 69%;
+  }
+  .about-img {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1430px) {
+  .blog-item {
+    padding-left: 5%;
+    margin-left: 20px;
+  }
+  .blog-item p {
+    max-width: 120%;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .wrapper {
+    max-width: 1000px;
+  }
+  .wrapper h2 {
+    font-size: 6.0rem;
+  }
+  .wrapper h1 {
+    font-size: 9.0rem;
+    letter-spacing: 5px;
+    line-height: 95px;
+  }
+  .blog-item {
+    padding-left: 3%;
+    margin-left: 15px;
+  }
+  .blog-item p {
+    max-width: 100%;
+  }
+  .men {
+    margin-left: 1%;
+  }
+  .phone {
+    padding-left: 730px;
+  }
+}
+@media screen and (max-width: 1285px) {
+  .team-img {
+    margin-left: 2%;
+  }
+}
+@media screen and (max-width: 1265px) {
+  .wrapper {
+    padding-top: 265px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .blog-item {
+    padding-left: 0;
+    margin-left: 15px;
+  }
+  .blog-item p {
+    max-width: 100%;
+  }
+  .about-counter_text p {
+    padding-top: 35px;
+  }
+  .about-counter_text {
+    padding-bottom: 35px;
+  }
+  .phone {
+    padding-left: 663px;
+  }
+  .team-img {
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 1216px) {
+  .men {
+    display: none;
+  }
+  .accordion {
+    float: none;
+    margin-right: 0;
+    margin: 0 auto;
+  }
+  .team-img {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1205px) {
+  .progress_bar_item {
+    padding-top: 35px;
+  }
+  .blog-item {
+    width: 340px;
+  }
+  .blog-item a img {
+    width: 100%;
+  }
+  .blog-item p {
+    max-width: 100%;
+  }
+  .about-counter_text p {
+    font-size: 1.2rem;
+  }
+  .phone {
+    padding-left: 622px;
+  }
+  .team-img_items {
+   float: none;
+  }
+  .team-img {
+    margin-left: 33%;
+  }
+  .team-img_items {
+    margin-bottom: 100px;
+  }
+  .team-img_items span,
+  .team-img_items p {
+    text-align: left;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 1153px) {
+  .follow {
+    margin-left: 3%;
+    width: 95%;
+  }
+  .follow-inst {
+    width: 30%;
+  }
+  .phone {
+    padding-left: 577px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .wrapper {
+    max-width: 860px;
+  }
+  .wrapper h1 {
+    font-size: 8.0rem;
+    letter-spacing: 4px;
+    padding-top: 0;
+  }
+  .blog-item {
+    width: 380px;
+    margin: 0 auto;
+    margin-left: 320px;
+  }
+  .blog-item a img {
+    width: 380px;
+  }
+  .blog-item p {
+    max-width: 100%;
+  }
+  .view, .comment {
+    padding-bottom: 30px;
+  }
+  input[type="email"] {
+    width: 191px;
+  }
+  .about-counter_text p {
+    font-size: 1.1rem;
+  }
+  .about-counter_text p span {
+    font-size: 6.0rem;
+  }
+  .phone {
+    padding-left: 562px;
+    width: 68%;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .progress_bar_item {
+    margin-left: 37%;
+    width: 60%;
+  }
+  .wrapper {
+    max-width: 740px;
+  }
+  .wrapper h1 {
+    font-size: 7.0rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .wrapper {
+    padding-top: 165px;
+  }
+  .about-text h3,
+  .service-text h3,
+  .devices-text h3,
+  .what-text h3,
+  .team-text h3,
+  .work-text h3,
+  .people-text h3,
+  .blog-text h3 {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 820px) {
+  .wrapper {
+    max-width: 640px;
+  }
+  .wrapper h1 {
+    font-size: 6.0rem;
+    letter-spacing: 1px;
+  }
+  .progress_bar_item {
+    margin-left: 20%;
+  }
+  .about-text p,
+  .what-text p,
+  .team-text p,
+  .work-text p {
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 715px) {
+  .wrapper {
+    max-width: 440px;
+  }
+  .wrapper h1 {
+    font-size: 5.0rem;
+    line-height: 65px;
+  }
+  .wrapper h2 {
+    font-size: 4.0rem;
+  }
+  .progress_bar_item li {
+    padding-top: 0;
+  }
+  .about-text h2::after,
+  .service-text h2::after,
+  .devices-text h2::after,
+  .what-text h2::after,
+  .team-text h2::after,
+  .work-text h2::after,
+  .people-text h2::after,
+  .blog-text h2::after {
+    margin-top: 22px;
+    margin-bottom: 31px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .wrapper {
+    max-width: 340px;
+    padding-top: 125px;
+  }
+  .wrapper h1 {
+    font-size: 3.0rem;
+  }
+  .wrapper h2 {
+    font-size: 2.0rem;
+  }
+  .line {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .about-text h3,
+  .service-text h3,
+  .devices-text h3,
+  .what-text h3,
+  .team-text h3,
+  .work-text h3,
+  .people-text h3,
+  .blog-text h3 {
+    padding-top: 40px;
+    padding-bottom: 3px;
+  }
+  .about-text p,
+  .what-text p,
+  .team-text p,
+  .work-text p {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .wrapper {
+    max-width: 240px;
+    padding-top: 110px;
+  }
+  .wrapper h1 {
+    font-size: 2.0rem;
+  }
+  .wrapper h2 {
+    font-size: 1.5rem;
+  }
+  .line {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .about-text h2::after,
+  .service-text h2::after,
+  .devices-text h2::after,
+  .what-text h2::after,
+  .team-text h2::after,
+  .work-text h2::after,
+  .people-text h2::after,
+  .blog-text h2::after {
+    margin-top: 12px;
+    margin-bottom: 21px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wrapper {
+    max-width: 190px;
+    padding-top: 100px;
+  }
+  .wrapper h1 {
+    line-height: 35px;
+  }
+}
