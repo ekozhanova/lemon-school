@@ -9,6 +9,39 @@
     padding-left: 875px;
     margin-top: -355px;
     width: 71%;
+  }
+  .about-text h3,
+  .service-text h3,
+  .devices-text h3,
+  .what-text h3,
+  .team-text h3,
+  .work-text h3,
+  .people-text h3,
+  .blog-text h3 {
+    padding-top: 55px;
+  }
+  .about-text h2::after,
+  .service-text h2::after,
+  .devices-text h2::after,
+  .what-text h2::after,
+  .team-text h2::after,
+  .work-text h2::after,
+  .people-text h2::after,
+  .blog-text h2::after {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  .about-text p,
+  .what-text p,
+  .team-text p,
+  .work-text p {
+    padding-bottom: 50px;
+  }
+  .about-img {
+    padding-bottom: 50px;
+  }
+  .service {
+    padding-top: 0;
 }
 @media screen and (max-width: 1564px) {
   .blog-item {
@@ -23,20 +56,38 @@
 @media screen and (max-width: 1540px) {
   .phone {
     padding-left: 785px;
+  }
+  .about-text h3,
+  .service-text h3,
+  .devices-text h3,
+  .what-text h3,
+  .team-text h3,
+  .work-text h3,
+  .people-text h3,
+  .blog-text h3 {
+    padding-top: 40px;
+  }
+  .about-text h2::after,
+  .service-text h2::after,
+  .devices-text h2::after,
+  .what-text h2::after,
+  .team-text h2::after,
+  .work-text h2::after,
+  .people-text h2::after,
+  .blog-text h2::after {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .about-text p,
+  .what-text p,
+  .team-text p,
+  .work-text p {
+    padding-bottom: 40px;
+  }
+  .about-img {
+    padding-bottom: 40px;
+  }
 }
-/*@media screen and (max-width: 1497px) {
-  .follow {
-    margin-left: 10%;
-    width: 79%;
-  }
-  .follow-inst {
-    width: 25%;
-    margin-left: 20px;
-  }
-  .progress_bar_item {
-    width: 110%;
-  }
-}*/
 @media screen and (max-width: 1497px) {
   .follow {
     margin-left: 5%;
@@ -57,6 +108,9 @@
   .progress_bar_item {
     margin-left: -5%;
   }
+  .about-img_items {
+    margin-left: 50px;
+  }
 }
 @media screen and (max-width: 1440px) {
   .phone {
@@ -76,8 +130,16 @@
   .blog-item p {
     max-width: 120%;
   }
+  .service-list {
+    margin-left: 8%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .service-list:last-child {
+    padding-top: 20px;
+    margin-bottom: 5px;
+  }
 }
-
 @media screen and (max-width: 1330px) {
   .wrapper {
     max-width: 1000px;
@@ -102,6 +164,9 @@
   }
   .phone {
     padding-left: 730px;
+  }
+  .about-img_items {
+    margin-left: 25px;
   }
 }
 @media screen and (max-width: 1285px) {
@@ -133,6 +198,16 @@
   }
   .team-img {
     margin-left: 1%;
+  }
+  .about-img_items {
+    margin-left: 8px;
+  }
+  .hipster {
+    margin-top: 100px;
+  }
+  .people-wrapper {
+    margin-left: 10%;
+    width: 85%;
   }
 }
 @media screen and (max-width: 1216px) {
@@ -181,6 +256,32 @@
     text-align: left;
     display: inline-block;
   }
+  .about-img {
+    display: block;
+    margin: 0 auto;
+    width: 390px;
+  }
+  .about-img_items {
+    float: none;
+  }
+  .about-text p,
+  .what-text p,
+  .team-text p,
+  .work-text p {
+    padding-bottom: 25px;
+  }
+  .about-img_items {
+    margin-bottom: 15px;
+  }
+  .about-img {
+    padding-bottom: 15px;
+  }
+  .hipster {
+    margin-top: -33px;
+  }
+  .people-item {
+    margin-bottom: 65px;
+  }
 }
 @media screen and (max-width: 1153px) {
   .follow {
@@ -192,6 +293,12 @@
   }
   .phone {
     padding-left: 577px;
+  }
+  .men-accordion {
+    padding-bottom: 60px;
+  }
+  .people-wrapper {
+    margin-left: 1%
   }
 }
 @media screen and (max-width: 1090px) {
@@ -230,6 +337,16 @@
     padding-left: 562px;
     width: 68%;
   }
+  .slider p {
+    font-size: 2.0rem;
+    padding-left: 170px;
+  }
+  .team-img {
+    margin-left: 25%;
+  }
+  .people-item {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 1020px) {
   .progress_bar_item {
@@ -242,6 +359,26 @@
   .wrapper h1 {
     font-size: 7.0rem;
   }
+  .about-counter_items {
+    width: 117%;
+     padding-left: 0;
+  }
+  .phone {
+    padding-left: 544px;
+    width: 70%;
+  }
+  .work-hover {
+    padding-top: 0;
+  }
+  .follow-inst {
+    margin-left: 20px;
+    width: 36%
+  }
+  input[type="email"] {
+    width: 135px;
+  }
+  .follow-mogo_item a {
+    margin-left: 5px;
 }
 @media screen and (max-width: 950px) {
   .wrapper {
@@ -257,6 +394,35 @@
   .blog-text h3 {
     padding-top: 50px;
     padding-bottom: 5px;
+  }
+  .service-list {
+    margin-left: 0;
+  }
+  .phone {
+    display: none;
+  }
+  .slider p {
+    font-size: 1.7rem;
+/*    padding-top: 30px;*/
+  }
+  .slider span {
+    margin-bottom: 30px;
+  }
+  .people-item p:last-child {
+    font-size: 1.3rem;
+  }
+  .people-wrapper {
+    padding-top: 25px;
+  }
+  .blog-item {
+    margin-left: 225px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .follow {
+    display: block;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 820px) {
   .wrapper {
@@ -273,7 +439,16 @@
   .what-text p,
   .team-text p,
   .work-text p {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+  }
+  .hipster {
+    margin-top: 0;
+  }
+  .work-img-list-item.list-item-big ul {
+    width: 100%;
+  }
+  .blog-item {
+    margin-left: 165px;
   }
 }
 @media screen and (max-width: 715px) {
@@ -301,6 +476,64 @@
     margin-top: 22px;
     margin-bottom: 31px;
   }
+  .about-counter_text p {
+    font-size: 0.91rem;
+  }
+  .service-list_items p {
+    font-size: 1.3rem;
+    padding-left: 60px;
+  }
+  .service-list_items {
+     width: 87%;
+     display: block;
+  }
+  .accordion {
+    width: 480px;
+  }
+  .men-accordion {
+    padding-bottom: 30px;
+  }
+  .slider p {
+    font-size: 1.5rem;
+  }
+  .work-hover p {
+    font-size: 1.2rem;
+  }
+  .work-hover p span {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 610px) {
+  .about-counter_text p span {
+    font-size: 3.0rem;
+  }
+  .slider p {
+    display: none;
+  }
+  .message {
+    margin-left: 28%;
+  }
+  .team-img {
+    margin-left: 13%;
+  }
+  .work-hover p {
+    display: none;
+  }
+/*  .work-hover p span {
+    display: none;
+  }*/
+  .work-hover p.img {
+    display: block;
+  }
+  .people-item {
+    float: none;
+  }
+  .people-item {
+    width: 100%;
+  }
+  .blog-item {
+    margin-left: 70px;
+  }
 }
 @media screen and (max-width: 515px) {
   .wrapper {
@@ -314,8 +547,8 @@
     font-size: 2.0rem;
   }
   .line {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
   .about-text h3,
   .service-text h3,
@@ -332,7 +565,31 @@
   .what-text p,
   .team-text p,
   .work-text p {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    width: 90%;
+    line-height: 18px;
+  }
+  .accordion {
+    width: 410px;
+  }
+  .team-img {
+    margin-left: 4%;
+  }
+  .slider span {
+    font-size: 2.1rem;
+  }
+  .blog-item {
+    margin-left: 0;
+}
+@media screen and (max-width: 440px) {
+  .accordion {
+    width: 360px;
+  }
+  .message {
+    margin-left: 16%;
+  }
+    .team-img {
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 410px) {
@@ -358,8 +615,73 @@
   .work-text h2::after,
   .people-text h2::after,
   .blog-text h2::after {
-    margin-top: 12px;
-    margin-bottom: 21px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .about-img_items a:hover {
+    box-shadow: none;
+    transform: none;
+  }
+  .about-img_items a:hover::before {
+    background: none;
+  }
+  .about-img_items a img {
+    width: 93%;
+  }
+  .about-img_items {
+    width: 80%;
+    margin-bottom: -37px;
+  }
+  .about-counter_text p span {
+    font-size: 2.5rem;
+  }
+  .about-text h3,
+  .service-text h3,
+  .devices-text h3,
+  .what-text h3,
+  .team-text h3,
+  .work-text h3,
+  .people-text h3,
+  .blog-text h3 {
+    font-size: 2.2rem;
+    padding-top: 20px;
+  }
+  .about-text h2,
+  .service-text h2,
+  .devices-text h2,
+  .what-text h2,
+  .team-text h2,
+  .work-text h2,
+  .people-text h2,
+  .blog-text h2 {
+    font-size: 2.6rem;
+  }
+  .blog-item a img {
+    width: 85%;
+  }
+  .blog-item p {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .accordion {
+    width: 300px;
+  }
+  .slider span {
+    font-size: 1.9rem;
+    padding-left: 0;
+  }
+  .slider span::before {
+    background-image: none;
+  }
+  .message {
+    margin-left: 7%;
+  }
+  .blog-item a img {
+    width: 75%;
+  }
+  .blog-item p {
+    width: 75%;
   }
 }
 @media screen and (max-width: 320px) {
@@ -370,4 +692,6 @@
   .wrapper h1 {
     line-height: 35px;
   }
+  .about-counter_items {
+    width: 113%;
 }
